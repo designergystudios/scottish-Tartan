@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  /* Palette */
+  --color-primary: #93000b;
+  --color-secondary: #2e6a41;
+  --color-background: #fcf8f8;
+  --color-surface: #fcf8f8;
+  --color-surface-container: #f0edec;
+  --color-on-surface: #1c1b1b;
+  --color-on-surface-variant: #5b403d;
+  --color-on-primary: #ffffff;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-on-surface);
+}
+
+.tartan-divider {
+  height: 2px;
+  background: repeating-linear-gradient(
+    90deg,
+    #93000b 0px,
+    #93000b 20px,
+    #2e6a41 20px,
+    #2e6a41 40px
+  );
+  width: 100%;
+}

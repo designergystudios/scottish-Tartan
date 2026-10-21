@@ -1,0 +1,6 @@
+{
+  "name": "Highland Heritage",
+  "description": "Premium digital menu and ordering application for The Scottish Tartan Hotel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
